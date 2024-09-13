@@ -1,0 +1,31 @@
+1. Hook -> render
+
+react js --> class component and function commponent
+
+class X extends React.Component{
+	constructor(){
+	}
+	this.state.....
+}
+
+spririt --> <Text> code in component
+
+var arr = [5, 6, 7]
+[...arr, 8] <-> [5, 6, 7, 8]
+
+bar obj = {
+	name : 'abc'
+	age: 20
+}
+{	...obj,
+	address: 'HCM'
+}
+<->{
+	name: 'ab',
+	age: 20,
+	address: 'HCM'
+}
+
+Bài 1. count + 1
+Bài 2. [5, 6, 7] -->
+in ra 5,6,7 click 6,7,8 click 7,8,9
