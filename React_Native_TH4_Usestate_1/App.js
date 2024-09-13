@@ -14,7 +14,7 @@ export default function App() {
       />
       <Button
         title="Reset"
-        onPress={() => { setDiceRolls([]); }} // Xóa toàn bộ dữ liệu
+        onPress={() => { setDiceRolls([]); }}
       />
       {diceRolls.map((diceRoll, index) => (
         <Text style = {{fontSize: 24}} key={index}>
